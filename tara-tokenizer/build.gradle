@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+
+	api project(':tara-common')
+	api project(':tara-util')
+	
+	implementation group: 'com.carrotsearch', name: 'hppc', version: '0.7.2'
+}
+
