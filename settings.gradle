@@ -1,0 +1,3 @@
+rootProject.name = 'Tara'
+
+include 'tara-common', 'tara-util', 'tara-tokenizer', 'tara-tokenprinter'
