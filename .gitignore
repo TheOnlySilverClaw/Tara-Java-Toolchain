@@ -1,10 +1,12 @@
 # Gradle
 .gradle/
-/build/
+**/build/
 !gradle-wrapper.jar
 
 # Java
 *.class
+
+*.classpath
 
 /bin/
 .project
